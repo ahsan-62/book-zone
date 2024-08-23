@@ -15,9 +15,9 @@ const listedBookAll = ({book}) => {
        <img
        src={image}
        alt="Shoes"
-       className="rounded-xl" />
+       className="rounded-xl " />
        </figure>
-       <div className=" card-body">
+       <div className="card-body">
        <div>
         <p>{tags?.map(tag => <span key={tag} className="mr-8 text-green-500">{tag}</span>)}</p>
        </div>
